@@ -1,0 +1,33 @@
+#carousel{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content: center;
+}
+
+#start-logo {
+  order:1;
+  position: absolute;
+  align-self: center;
+  z-index: 3;
+  opacity: 0.3;  
+  transform: scale(.5)
+}
+
+#carousel-text {
+  order:1;
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  align-self: center;
+  z-index: 2;
+}
+
+.carousel-image{
+  order:1;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+
